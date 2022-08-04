@@ -1,0 +1,179 @@
+/* Mexe na cor de fundo do nome brasileiro Serie A*/
+h1 {
+    text-align: center;
+    background-color: #04a504;
+    color: #fff;
+    font-family: Arial,12px;
+    text-align: center;
+}
+
+th {
+    font-family: arial;
+    border: 0px solid black;
+    text-align: center;
+     
+  }
+
+td {
+    font-family: arial;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*Mexe na tabela*/
+table {
+    border: 1px solid #0c0c0c;
+    display: center;
+    font-family:  Arial, 12px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+/*cor fundo tabela*/
+.tabela-destaque {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    
+   
+}
+
+/*Mexe na parte  brasileiro serie A*/
+.tabela-destaque h1{
+    padding: 10px 0;
+    width: 50%;
+    text-align: center;
+}
+
+/* Mexe na tamanho da tabela*/
+.campeonato-destaque{
+    width: 50%;
+    text-align: center;
+}
+
+/*Mexe no tamanho dos escudos dos times*/
+.campeonato-destaque img{
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/*Nomes da parte de baixo / libertadores*/
+.campeonato-destaque tr{
+    text-align: center;
+    font-size: 12px;
+    color: grey; 
+    text-align: center;
+    
+}
+
+
+.campeonato-destaque td{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid var(--borda_cor);
+    padding: 10px 0;    
+
+}
+
+/*mexe no numero das posiçoes*/
+.campeonato-destaque .posicao{
+    text-align: start;
+  
+    
+}
+
+
+/* mexe no numeros das posições*/
+.campeonato-destaque .posicao-num{
+    font-size: 18px;
+    padding-right: 5px;
+    text-align: center;
+    
+}
+
+
+/* Cor das letras*/
+.redtext {
+	color: #c91b04;
+    font-size: 18px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+
+.cinzatext {
+	color: #666666;
+    font-size: 14px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.clatext {
+    color: #044f9b;
+    font-size: 18px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.blueclarotext {
+    color: #1398be;
+    font-size: 18px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+
+.laranja {
+    color: #de9800;
+    font-size: 18px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.cinzaclaro {
+    color: #c4c5c5;
+    font-size: 14px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.blacktext {
+    color: #080808;
+    font-size: 14px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.fa-stop:before {
+    content: "\f04d";
+    background-color: #003366;
+
+}
+
+/* cor dos quadrados no fim da tabela*/
+.fa-stop1:before {
+    content: "\f04d";
+    background-color: #1398be;
+
+}
+
+.fa-stop2:before {
+    content: "\f04d";
+    background-color: #de9800;
+
+}
+
+.fa-stop3:before {
+    content: "\f04d";
+    background-color: #c91b04;
+
+}
+
+
+
+
+
