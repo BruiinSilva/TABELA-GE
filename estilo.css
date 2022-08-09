@@ -1,179 +1,94 @@
-/* Mexe na cor de fundo do nome brasileiro Serie A*/
-h1 {
-    text-align: center;
-    background-color: #04a504;
-    color: #fff;
-    font-family: Arial,12px;
-    text-align: center;
+
+.aside{
+    width: 45%;
+    height: 45%;
+  
 }
 
-th {
-    font-family: arial;
-    border: 0px solid black;
-    text-align: center;
-     
-  }
-
-td {
-    font-family: arial;
-    border: 1px solid black;
-    text-align: center;
-}
-
-/*Mexe na tabela*/
-table {
-    border: 1px solid #0c0c0c;
-    display: center;
-    font-family:  Arial, 12px;
-    border-collapse: collapse;
-    text-align: center;
-}
-
-/*cor fundo tabela*/
 .tabela-destaque {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding: 20px;
-    margin-bottom: 0px;
-    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 2%;
     
-   
+    
 }
 
-/*Mexe na parte  brasileiro serie A*/
 .tabela-destaque h1{
     padding: 10px 0;
-    width: 50%;
-    text-align: center;
+    background-color: rgb(0, 163, 95);
+    
 }
 
-/* Mexe na tamanho da tabela*/
 .campeonato-destaque{
-    width: 50%;
-    text-align: center;
+    border-collapse: collapse; 
+    width: 100%;
+    height: 100%;
+    
 }
 
-/*Mexe no tamanho dos escudos dos times*/
 .campeonato-destaque img{
     height: 28px;
     width: 28px;
     margin-right: 10px;
-    text-align: center;
 }
 
-/*Nomes da parte de baixo / libertadores*/
-.campeonato-destaque tr{
-    text-align: center;
-    font-size: 12px;
-    color: grey; 
-    text-align: center;
+table {
+    width: 100%;
+    border-collapse: collapse;
     
-}
+  }
 
+td, th {
+    border: 1px solid #f3efef;
+ 
+  }  
 
-.campeonato-destaque td{
-    color: black;
-    text-align: center;
-    font-size: 14px;
-    border-top: 1px solid var(--borda_cor);
-    padding: 10px 0;    
-
-}
-
-/*mexe no numero das posiçoes*/
 .campeonato-destaque .posicao{
     text-align: start;
-  
-    
 }
 
-
-/* mexe no numeros das posições*/
 .campeonato-destaque .posicao-num{
-    font-size: 18px;
+    font-size: 16px;
     padding-right: 5px;
-    text-align: center;
-    
+    color: grey;
 }
 
-
-/* Cor das letras*/
-.redtext {
-	color: #c91b04;
-    font-size: 18px;
-    padding-right: 5px;
-    text-align: center;
+.faixa-classificacao__grupo {
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
-
-
-.cinzatext {
-	color: #666666;
-    font-size: 14px;
-    padding-right: 5px;
-    text-align: center;
+.faixa-classificacao__label {
+    margin-right: 10px;
 }
-
-.clatext {
-    color: #044f9b;
-    font-size: 18px;
-    padding-right: 5px;
-    text-align: center;
-}
-
-.blueclarotext {
-    color: #1398be;
-    font-size: 18px;
-    padding-right: 5px;
-    text-align: center;
-}
-
-
-.laranja {
-    color: #de9800;
-    font-size: 18px;
-    padding-right: 5px;
-    text-align: center;
-}
-
-.cinzaclaro {
-    color: #c4c5c5;
-    font-size: 14px;
-    padding-right: 5px;
-    text-align: center;
-}
-
-.blacktext {
-    color: #080808;
-    font-size: 14px;
-    padding-right: 5px;
-    text-align: center;
-}
-
-.fa-stop:before {
-    content: "\f04d";
-    background-color: #003366;
-
-}
-
-/* cor dos quadrados no fim da tabela*/
-.fa-stop1:before {
-    content: "\f04d";
-    background-color: #1398be;
-
-}
-
-.fa-stop2:before {
-    content: "\f04d";
-    background-color: #de9800;
-
-}
-
-.fa-stop3:before {
-    content: "\f04d";
-    background-color: #c91b04;
-
+.faixa-classificacao__label {
+    line-height: 18px;
+    margin-right: 20px;
+    text-transform: lowercase;
 }
 
 
 
+.faixa-classificacao__label--icone {
+    height: 9px;
+    margin-left: 0;
+    margin-right: 1px;
+    width: 9px;
+}
 
+.classificacao__icone {
+    background-size: 17px 50px;
+    background: url(https://s.glbimg.com/es/ge/static/live/widget_classificacao_responsivo/img/sprite-tabela-icones.svg?5dfb76dc3509) no-repeat left 1px;
+    display: inline-block;
+    height: 10px;
+    background-position-y: 2px;
+    margin-left: 6px;
+    overflow: hidden;
+    width: 8px;
+}
 
+.faixa-classificacao__agrupador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
